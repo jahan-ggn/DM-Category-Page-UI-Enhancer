@@ -1,0 +1,55 @@
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background: none !important;
+  box-shadow: none !important;
+
+  .category-list-item {
+    border: 2px solid #fff !important;
+    border-radius: 8px;
+    background-color: var(--secondary);
+
+    th {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+    .category-logo > img {
+      width: 80px !important;
+    }
+    .category-description {
+      display: table-row !important;
+    }
+    .category-topic-link {
+      display: none !important;
+    }
+  }
+
+  .category-list-item:first-child {
+    border: 2px solid #fff !important;
+    border-radius: 8px;
+    margin-top: 0px;
+  }
+
+  .category-list-item:last-child {
+    border: 2px solid #fff !important;
+    border-radius: 8px;
+    margin-bottom: 0px;
+  }
+
+  .category-stat a {
+    font-size: 0;
+  }
+
+  .category-stat a .value {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+
+  .category-stat a::after {
+    content: " conversations";
+    font-size: 14px;
+  }
+}

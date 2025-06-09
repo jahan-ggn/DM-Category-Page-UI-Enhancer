@@ -1,5 +1,5 @@
-# dm_category_page_ui_enhancer
+# DM Category Page UI Enhancer
 
 **Theme Summary**
 
-For more information, please see: **url to meta topic**
+Enhances the category page layout by hiding sidebar elements, simplifying styles, and repositioning the category logo for a cleaner look.
