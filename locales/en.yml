@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: Enhances the category page layout for DM by hiding sidebar elements,
+      simplifying styles, and repositioning the category logo for a cleaner look.
+    settings:
+      example_setting: A description of a setting.
