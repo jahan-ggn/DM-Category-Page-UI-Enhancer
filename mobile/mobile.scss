@@ -29,14 +29,14 @@
 
   .category-list-item:first-child {
     border: 2px solid #fff !important;
-    border-radius: 8px;
-    margin-top: 0px;
+    border-radius: 8px !important;
+    margin-top: 0px !important;
   }
 
   .category-list-item:last-child {
     border: 2px solid #fff !important;
-    border-radius: 8px;
-    margin-bottom: 0px;
+    border-radius: 8px !important;
+    margin-bottom: 0px !important;
   }
 
   .category-stat a {
