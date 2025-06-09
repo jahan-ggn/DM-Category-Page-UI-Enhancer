@@ -16,12 +16,15 @@
       width: 100%;
       align-items: center;
     }
+
     .category-logo > img {
       width: 80px !important;
     }
+
     .category-description {
       display: table-row !important;
     }
+
     .category-topic-link {
       display: none !important;
     }
@@ -30,13 +33,13 @@
   .category-list-item:first-child {
     border: 2px solid #fff !important;
     border-radius: 8px !important;
-    margin-top: 0px !important;
+    margin-top: 0 !important;
   }
 
   .category-list-item:last-child {
     border: 2px solid #fff !important;
     border-radius: 8px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
   }
 
   .category-stat a {
