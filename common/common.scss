@@ -1,3 +1,10 @@
 .cooked a:not([class]) {
   text-decoration: underline;
 }
+
+.sidebar-section-wrapper[data-section-name="chat-dms"],
+.sidebar-section-wrapper[data-section-name="chat-channels"],
+.sidebar-section-wrapper[data-section-name="user-threads"],
+.sidebar-section-wrapper[data-section-name="messages"] {
+  display: none;
+}
