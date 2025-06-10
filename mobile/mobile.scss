@@ -6,8 +6,8 @@
   box-shadow: none !important;
 
   .category-list-item {
-    border: 2px solid #fff !important;
-    border-radius: 8px;
+    border: none !important;
+    border-radius: 1em;
     background-color: var(--secondary);
 
     th {
@@ -23,21 +23,28 @@
 
     .category-description {
       display: table-row !important;
+      text-align: center;
     }
 
     .category-topic-link {
       display: none !important;
     }
+
+    .subcategories-list .subcategories {
+      display: flex;
+      flex-flow: wrap;
+      gap: 0.75em;
+    }
   }
 
   .category-list-item:first-child {
-    border: 2px solid #fff !important;
+    border: none !important;
     border-radius: 8px !important;
     margin-top: 0 !important;
   }
 
   .category-list-item:last-child {
-    border: 2px solid #fff !important;
+    border: none !important;
     border-radius: 8px !important;
     margin-bottom: 0 !important;
   }
