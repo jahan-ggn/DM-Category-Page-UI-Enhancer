@@ -62,4 +62,8 @@
     content: " conversations";
     font-size: 14px;
   }
+
+  .category-stat:nth-of-type(2) {
+    display: none;
+  }
 }
