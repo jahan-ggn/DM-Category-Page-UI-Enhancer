@@ -9,9 +9,13 @@
   display: none;
 }
 
+$tertiary-low: dark-light-choose(#e7eaeb, #141b1d);
+$tertiary-very-low: dark-light-choose(#e7eaeb, #141b1d);
+$highlight-bg: dark-light-choose(#e7eaeb, #141b1d);
+
 :root {
   --tertiary-med-or-tertiary: #829ca5;
-  --tertiary-low: #e7eaeb;
-  --tertiary-very-low: #e7eaeb;
-  --highlight-bg: #e7eaeb;
+  --tertiary-low: #{$tertiary-low};
+  --tertiary-very-low: #{$tertiary-very-low};
+  --highlight-bg: #{$highlight-bg};
 }
